@@ -1,0 +1,66 @@
+[gd_scene load_steps=7 format=3 uid="uid://c8lk40qbnd8v7"]
+
+[ext_resource type="Texture2D" uid="uid://qcn77fa6lcef" path="res://Play Area Sprites/background.png" id="1_pl5nt"]
+[ext_resource type="PackedScene" uid="uid://bu1nyq132j28s" path="res://base_guy.tscn" id="2_mj1of"]
+[ext_resource type="Script" path="res://GuyCan.gd" id="2_t0pgl"]
+[ext_resource type="PackedScene" uid="uid://bselm08880mrl" path="res://base_pacman_guy.tscn" id="4_t4pba"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_txuhu"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_ra7h7"]
+size = Vector2(126, 9)
+
+[node name="GameArea" type="Node2D"]
+
+[node name="100LittleGuys" type="Sprite2D" parent="."]
+position = Vector2(80, 72)
+texture = ExtResource("1_pl5nt")
+
+[node name="GuyCan" type="Area2D" parent="."]
+position = Vector2(141, 34)
+scale = Vector2(1.81945, 3.44783)
+script = ExtResource("2_t0pgl")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="GuyCan"]
+shape = SubResource("RectangleShape2D_txuhu")
+
+[node name="base_guy" parent="." instance=ExtResource("2_mj1of")]
+position = Vector2(59, 67)
+
+[node name="base_guy3" parent="." instance=ExtResource("2_mj1of")]
+position = Vector2(59, 100)
+
+[node name="base_guy4" parent="." instance=ExtResource("2_mj1of")]
+position = Vector2(81, 111)
+
+[node name="base_guy5" parent="." instance=ExtResource("2_mj1of")]
+position = Vector2(70, 89)
+
+[node name="base_guy6" parent="." instance=ExtResource("2_mj1of")]
+position = Vector2(70, 78)
+
+[node name="base_guy7" parent="." instance=ExtResource("2_mj1of")]
+position = Vector2(70, 67)
+
+[node name="Walls" type="StaticBody2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Walls"]
+position = Vector2(65, 23)
+shape = SubResource("RectangleShape2D_ra7h7")
+
+[node name="CollisionShape2D3" type="CollisionShape2D" parent="Walls"]
+position = Vector2(5, 82)
+rotation = 1.5708
+shape = SubResource("RectangleShape2D_ra7h7")
+
+[node name="CollisionShape2D4" type="CollisionShape2D" parent="Walls"]
+position = Vector2(125, 83)
+rotation = 1.5708
+shape = SubResource("RectangleShape2D_ra7h7")
+
+[node name="CollisionShape2D2" type="CollisionShape2D" parent="Walls"]
+position = Vector2(65, 143)
+shape = SubResource("RectangleShape2D_ra7h7")
+
+[node name="base_pacman_guy" parent="." instance=ExtResource("4_t4pba")]
+position = Vector2(92, 56)
