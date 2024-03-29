@@ -2,8 +2,9 @@ Master List of Guy Ideas
 
 - includes both ideas that have and haven't been implemented
 - nothing here is finalized per se, including names, feel free to make suggestions
-- *asterisked* ideas are already functioning in the game
-- ~tilded~ ideas are ones that should be easy to start with within the existing architecture
+- $dollared$ ideas are already functioning in the game
+- *asterisked* ideas are claimed by a coder and being worked on
+- ~tilded~ ideas are ones I've earmarked that should be easy to start with within the existing architecture
 
 ~Wallflower~ - walks towards the nearest wall as quickly as possible, then stops
 Hugrook - walks towards any other guys in the same column or row
