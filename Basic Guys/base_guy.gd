@@ -1,11 +1,10 @@
 extends CharacterBody2D
 class_name BaseGuy
 
-#TODO: stretch scene so it's actually sizeable on the screen
 #TODO: allow for click and drag functionality
 #TODO: pause all other guy functions besides being clicked and dragged while it's being clicked and dragged
 #TODO: return to regular movement when dropped
-#TODO: 
+#TODO: fork off base_pillar_guy
 
 #constant which dictates the side of the tiles
 var tile_size = 11
@@ -22,7 +21,7 @@ func _ready():
 	position = position.snapped(Vector2.ONE * tile_size)
 	position.x += (tile_size/2) - 1
 	position.y += 1
-	ptimer.start(5)
+	ptimer.start(randf_range(3,6))
 
 #allows movement, only if no collision is detected
 func move(dir):
@@ -31,6 +30,17 @@ func move(dir):
 	if !ray.is_colliding():
 		position += dir * tile_size
 
+func whereToMove():
+	var inputA = randi_range(-1,1)
+	var inputB = randi_range(-1,1)
+	if(inputA<0):
+		move(Vector2.LEFT)
+	elif(inputA>0):
+		move(Vector2.RIGHT)
+	if(inputB<0):
+		move(Vector2.DOWN)
+	elif(inputB>0):
+		move(Vector2.UP)
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(delta):
@@ -52,16 +62,7 @@ func onGuyDrop():
 
 #called after guy sits around for a little bit
 func onGuyPonder():
-	var inputA = randi_range(-1,1)
-	var inputB = randi_range(-1,1)
-	if(inputA<0):
-		move(Vector2.LEFT)
-	elif(inputA>0):
-		move(Vector2.RIGHT)
-	if(inputB<0):
-		move(Vector2.DOWN)
-	elif(inputB>0):
-		move(Vector2.UP)
+	whereToMove()
 	ptimer.start(randf_range(3,6))
 
 #a second ponder for more complex behaviors

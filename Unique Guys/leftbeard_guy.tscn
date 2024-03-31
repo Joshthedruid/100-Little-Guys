@@ -1,0 +1,11 @@
+[gd_scene load_steps=4 format=3 uid="uid://bpvk5cv77groo"]
+
+[ext_resource type="PackedScene" uid="uid://bu1nyq132j28s" path="res://Basic Guys/base_guy.tscn" id="1_7wksp"]
+[ext_resource type="Script" path="res://Unique Guys/leftbeard_guy.gd" id="2_061px"]
+[ext_resource type="Texture2D" uid="uid://2pxr5sd6dry8" path="res://Play Area Sprites/orb_guy.png" id="3_qapx4"]
+
+[node name="leftbeard_guy" instance=ExtResource("1_7wksp")]
+script = ExtResource("2_061px")
+
+[node name="Guy" parent="." index="0"]
+texture = ExtResource("3_qapx4")

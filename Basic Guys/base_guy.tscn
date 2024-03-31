@@ -1,6 +1,6 @@
 [gd_scene load_steps=4 format=3 uid="uid://bu1nyq132j28s"]
 
-[ext_resource type="Script" path="res://base_guy.gd" id="1_tu2ts"]
+[ext_resource type="Script" path="res://Basic Guys/base_guy.gd" id="1_tu2ts"]
 [ext_resource type="Texture2D" uid="uid://cjd03u5ee50uc" path="res://Play Area Sprites/pillar_guy.png" id="2_bg6ql"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_6y5ir"]
