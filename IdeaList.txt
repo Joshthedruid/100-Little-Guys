@@ -1,0 +1,121 @@
+Master List of Guy Ideas
+
+- includes both ideas that have and haven't been implemented
+- nothing here is finalized per se, including names, feel free to make suggestions
+- $dollared$ ideas are already functioning in the game
+- *asterisked* ideas are claimed by a coder and being worked on
+- ~tilded~ ideas are ones I've earmarked that should be easy to start with within the existing architecture
+
+~Wallflower~ - walks towards the nearest wall as quickly as possible, then stops
+Hugrook - walks towards any other guys in the same column or row
+Hugbishiop - walks towards any other guys diagonal from it
+~Wanderhorse~ - occasionally moves in L-shaped patterns
+Minuteman - scrambles about every time your console ticks up 1 minute
+Hourman - scrambles about every time your console ticks up 1 hour
+CatAndMouse - runs away from the cursor
+~DurdlePawn~ - slowly walks up the screen one space at a time
+~Sprinter~ - moves consistently, with bursts of acceleration
+~Busybody~ - just never stops moving
+NoTouchy - dies if the player holds them for too long
+Claustrophobic - dies if placed in a storage box
+Stickler - dies if you put it in the wrong slot
+Mirror - always tries to be in a horizontally symmetrical to another guy if possible
+Gravity well - pulls other guys close to it
+Spinout - moves erratically as soon as it’s dropped into the world, then slows down
+~Karel~ - Always moves forward, unless it hits a wall, in which case it turns left
+PersonalSpace - Always moves away from another guy if placed directly next to it
+Buddy -Meanders around and drags the first other guy it comes in contact with behind it
+Tagger - Runs up to touch every guy it hasn’t touched yet
+Envy - Runs up and kills any guy whose identity has been found
+Crash - Runs into the nearest wall and dies
+Reaper - Meanders around, killing any guy it touches
+Assassin - stays perfectly still for a very long time, then runs up and kills a guy
+Introvert - dies if surrounded by guys
+Extrovert - dies if it’s not touching another guy for too long
+~Spotlight~ - always tries to stand in the direct center of the map
+Richard - slowly, consistently, draws a dick with his movement
+Chaos - runs around faster the more guys there are out
+Traffic Jam - runs around blazing fast, slows down the more guys are out
+Panic - runs around like crazy whenever another guy dies
+Kennedy - wanders around slowly and consistently
+Oswald - only if Kennedy is out, runs far away and then Kennedy dies
+Mutt - while on the field, mutes the game audio
+~Superman~ - can’t die
+Lodestone - can’t be picked up (unless you’re grabbing him from the guy box, can die)
+~MallWalker~ - walks consistently around the edge of the map
+~Toad~ - walks in quick, distinct leaps
+~Gravitas~ - always walks down as far as possible
+Radon - as long as he’s out, all guys have the chance to die at random at any time
+Meteor - kills other guys in an AOE when he’s dropped
+~Quantum~ - teleports across the map sporadically and unexpectedly
+~Mini~ - obviously smaller than the average guy
+~Groucho~ - wearing a groucho mask
+Greeter- walks up to every new guy who enters
+DontBlink - only moves while you're reading the book
+Oracle - moves to the spot corresponding to the number of correct guys you have
+Perfectionist - meanders, but moves around like crazy if you have any wrong guys
+Jitter - moves very quickly around the point you drop him on
+Orbit - consistently moves around other guys
+Pong - moves consistently, bounding off walls and guys
+*Leapfrog* - teleports over others as it moves
+~Pacman~ - can teleport to the other side of the area when it hits a wall
+~Flash~ - Accelerates continually until it dies
+~Cardinal~ - can't move diagonally
+Chameleon - moves sporadically, only visible while he's moving
+Noclip - can walk outside of the map
+Freezetag - temporarily immobilizes guys it touches
+Splatter - pulls out two other guys when he spawns
+Helper - stands on his correct corresponding spot
+~Zigzag~ - walks in zigzags
+Bully- pushes other guys around
+Copycat - copies another guy as closely as possible
+DeepCover - swaps positions with other guys at random
+Friendly - walks towards your cursor
+Snuggle- always stands between two other guys if possible
+Flipflop- switches from one side of the map to the other occasionally
+Meep- makes a little noise when you turn to his page
+Casper - turns transparent the first time he dies, instead of dying
+HermitCrab - can't be picked up unless it's moving
+Looper - walks a random path, then time loops forever
+HangTen - walks in a sine wave pattern
+Square - gravitates towards tiles that are perfect squares
+Whitey - wanders around, is invisible on white chess squares
+Homebody - walks slowly away from the tile you set it on, then quickly returns
+~Tricycle~ - only makes steps three at a time
+Bookworm - lives inside the book itself
+~Fullsteam~ - walks straight ahead in a single direction until it hits something
+Whiner - makes the death noise while alive
+Squaredance- steps about in a little square, occasionally
+Defender - has its own little 3x3 area that it pushes other guys out of
+Lawnmower - slowly and consistently mows across the whole stage
+Psyche - subtly changes some of the text around the UI
+PoleVault - backs up, then takes a fast running leap
+Tippler - walks in a drunken stumble
+Hefty - drags behind the cursor when picked up
+Earworm - keeps the music from changing
+Eightball - knocks into other guys, shooting them away
+Stinker - other guys stay one tile away
+Piggyback - stays on top of another guy
+Shepherd - pulls other guys into a designated area
+~JumpingJack~ - meanders, then pops up and down in quick bursts occasionally
+Poot - makes a fart sound when you drop him
+Janus - has two invisible portals at two points of the map that it teleports between
+Boo - moves consistently, stops when you mouse over it
+~Cyclops~ - has an obvious dot on it
+Inkwell - slowly runs out of color as it walks around
+Cloak - other guys are invisible in its immediate area
+Monarch - all other guys stay perfectly still while it’s on the map
+Chum - automatically jumps back into the guy bag if you have less than 10 guys out
+Rummage - bounces between the storage bins when he’s in them
+~Freakout~ - occasionally teleports all over the place very quickly
+Carrot - stays still, has to be clicked and held on to be picked up
+Rev - gets a little faster every time you pick him up and put him down
+Hotcold - points to his favorite spot on the map every time you drop him.  Won’t go into his slot unless he’s been on his favorite spot
+Laggy - sometimes slides across the board in an unnatural way
+Handstand - flips upside down while he walks
+Sweaty - has a very fast character animation, but doesn’t actually move very much
+Loki - switches sprites to look like other guys
+Frogger - moves left and right very easily, moves up and down very cautiously
+~Queenie~ - moves a random number of spaces in a set line, along a random cardinal or diagonal direction
+Jailbreak - sneaks over to the storage boxes and releases the guys inside
+Kidnap - sneakily captures another guy until he’s picked up or killed
