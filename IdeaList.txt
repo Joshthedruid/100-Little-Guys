@@ -59,7 +59,7 @@ Orbit - consistently moves around other guys
 Pong - moves consistently, bounding off walls and guys
 *Leapfrog* - teleports over others as it moves
 ~Pacman~ - can teleport to the other side of the area when it hits a wall
-~Flash~ - Accelerates continually until it dies
+$Flash$ - Accelerates continually until it dies
 ~Cardinal~ - can't move diagonally
 Chameleon - moves sporadically, only visible while he's moving
 Noclip - can walk outside of the map
@@ -119,3 +119,4 @@ Frogger - moves left and right very easily, moves up and down very cautiously
 ~Queenie~ - moves a random number of spaces in a set line, along a random cardinal or diagonal direction
 Jailbreak - sneaks over to the storage boxes and releases the guys inside
 Kidnap - sneakily captures another guy until he’s picked up or killed
+$Leftbeard$ - can't move right

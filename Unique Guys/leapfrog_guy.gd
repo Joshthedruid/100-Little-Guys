@@ -7,6 +7,7 @@ extends StretchGuy
 #TODO setting unique names for this guy does not work due to inheritance, gotta find the correct way to do it
 
 #TODO as of 3/27/24, guy can in fact leapfrog!  but he also hops over walls and doesn't detect if there's a free space for him on the other side yet.  Also cooldown is probably a good idea?
+#TODO as of 3/31/24, the base stretch_guy has changed from a walk to a skitter, this guy doesn't match yet
 
 #var guy_name = "Leapfrog"
 #var guy_ID = 1

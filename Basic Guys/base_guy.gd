@@ -4,7 +4,6 @@ class_name BaseGuy
 #TODO: allow for click and drag functionality
 #TODO: pause all other guy functions besides being clicked and dragged while it's being clicked and dragged
 #TODO: return to regular movement when dropped
-#TODO: fork off base_pillar_guy
 
 #constant which dictates the side of the tiles
 var tile_size = 11
@@ -62,8 +61,7 @@ func onGuyDrop():
 
 #called after guy sits around for a little bit
 func onGuyPonder():
-	whereToMove()
-	ptimer.start(randf_range(3,6))
+	pass
 
 #a second ponder for more complex behaviors
 func onGuyPonder2():

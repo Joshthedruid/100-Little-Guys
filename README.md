@@ -25,15 +25,15 @@ This repo is for a Godot 4 game dev project among friends.  This document is mai
 ### - How do I make a new guy?
 - There are four abstract classes currently in place, as shown below:
 ```
-                       -------------------
-      ---------------> | base_pillar_guy |
-      |                -------------------
+					   -------------------
+	  ---------------> | base_pillar_guy |
+	  |                -------------------
  ------------           ----------------
 | base_guy |  -------> | base_orb_guy |
  ------------           ----------------
-      |                --------------------
-      ---------------> | base_stretch_guy |
-                       --------------------
+	  |                --------------------
+	  ---------------> | base_stretch_guy |
+					   --------------------
 ```
 - All basic functions will extend from base_guy.  The other three are archetypes based on a very loose categorization
   - Pillar Guy is slow, possibly immobile.
@@ -48,22 +48,22 @@ This repo is for a Godot 4 game dev project among friends.  This document is mai
 
 ### - What's a good effect for a guy to have?
 - There is a link of ideas currently thought up in this GitHub.  Feel free to use one of those or add your own!  In general I'm working up a list of guydelines that I think will be effective (which admittedly not everything on the idea list conforms to yet...which is why new ideas are welcome!)
-     - Effects should be subtle: since it's a deduction game, we don't want too many easy effects that are instantly recognizeable.  We'll throw in a few softballs for new players though, so some of these are fine
-     - Movement effects are our bread and butter: these are easy to show visually, and neat to code.  Most guys in the idea doc currently have some sort of weird movement
-     - Gimmick effects are prime real estate: we have a guy that mutes the game audio, a guy that hides in the Guyde itself, a guy that no-clips through walls.  They might be easy, but they're different and cool
-     - OnDeath effects should happen sparingly: when guys die, they go back to the spawn pool.  If a guy's whole deal takes place when he dies, it'll be hard to actually single it out and store it.
-     - Effects need to be differentiable: this might be tricky with so many guys, but the player has to be able to deduce who is who.  Guys with _similar_ traits are great, so long as you can tell who's who side by side
+	 - Effects should be subtle: since it's a deduction game, we don't want too many easy effects that are instantly recognizeable.  We'll throw in a few softballs for new players though, so some of these are fine
+	 - Movement effects are our bread and butter: these are easy to show visually, and neat to code.  Most guys in the idea doc currently have some sort of weird movement
+	 - Gimmick effects are prime real estate: we have a guy that mutes the game audio, a guy that hides in the Guyde itself, a guy that no-clips through walls.  They might be easy, but they're different and cool
+	 - OnDeath effects should happen sparingly: when guys die, they go back to the spawn pool.  If a guy's whole deal takes place when he dies, it'll be hard to actually single it out and store it.
+	 - Effects need to be differentiable: this might be tricky with so many guys, but the player has to be able to deduce who is who.  Guys with _similar_ traits are great, so long as you can tell who's who side by side
 
 ### - Can I make unique art for my guy?
 - Yes!  Each guy will have a unique portrait in the Guyde (similar to a Pokemon game's Pokedex).  I've used Pixel Studio on my Android smartphone for all current art which I recommend if you want to draw on the go, otherwise any desktop app that lets you zoom to the pixel level work just as well, like Gimp.  A couple rules on art:
-     - Images should be 56x56 px, and exported as .png files.
-     - Sprites can only be made up of exactly black and white, plus a transparency layer
-     - Please ensure that that transparency layer is used when appropriate, as opposed to a background filled in with white or black
-     - Guys vaguely fit into one of three categories, and ideally their visuals at least sort of fit into those groupings:
-         -Pillar Guy, sometimes immobile, taller than he is wide, vaguely [] or i shape silhouette
-         -Orb Guy, vaguely mobile, vaguely O or C shape silhouette
-         -Stretch Guy, speedly, sleek, vaguely A or R shape silhuoette
-         -The above are loose suggestions, if you have a cool idea that doesn't quite fit, don't sweat it.  Better to have a slightly different portrait than no portrait!
+	 - Images should be 56x56 px, and exported as .png files.
+	 - Sprites can only be made up of exactly black and white, plus a transparency layer
+	 - Please ensure that that transparency layer is used when appropriate, as opposed to a background filled in with white or black
+	 - Guys vaguely fit into one of three categories, and ideally their visuals at least sort of fit into those groupings:
+		 -Pillar Guy, sometimes immobile, taller than he is wide, vaguely [] or i shape silhouette
+		 -Orb Guy, vaguely mobile, vaguely O or C shape silhouette
+		 -Stretch Guy, speedly, sleek, vaguely A or R shape silhuoette
+		 -The above are loose suggestions, if you have a cool idea that doesn't quite fit, don't sweat it.  Better to have a slightly different portrait than no portrait!
 
 ### - How should I upload my contribution to the project?
 - The preferred method will be through branching and merging.  Follow good GitHub practices for commiting and making pull requests, and ask if there's any confusion.  Make sure your commits are well labeled so we know who to attribute to what work.  Each guy does not need its own unique branch per se, but make sure if you're making various changes at once that it's very clear what they are for everyone else.

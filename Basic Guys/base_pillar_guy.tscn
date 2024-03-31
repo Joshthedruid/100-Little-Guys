@@ -1,0 +1,7 @@
+[gd_scene load_steps=3 format=3 uid="uid://bl55icwugytve"]
+
+[ext_resource type="PackedScene" uid="uid://bu1nyq132j28s" path="res://Basic Guys/base_guy.tscn" id="1_py5rf"]
+[ext_resource type="Script" path="res://Basic Guys/base_pillar_guy.gd" id="2_mq4br"]
+
+[node name="base_pillar_guy" instance=ExtResource("1_py5rf")]
+script = ExtResource("2_mq4br")

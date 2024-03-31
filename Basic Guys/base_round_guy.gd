@@ -1,4 +1,6 @@
 extends BaseGuy
 class_name RoundGuy
 
-#TODO bring walk system from base_guy into here
+func onGuyPonder():
+	whereToMove()
+	ptimer.start(randf_range(3,6))
