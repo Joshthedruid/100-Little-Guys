@@ -3,8 +3,8 @@
 [ext_resource type="Texture2D" uid="uid://qcn77fa6lcef" path="res://Play Area Sprites/background.png" id="1_pl5nt"]
 [ext_resource type="Script" path="res://GuyCan.gd" id="2_t0pgl"]
 [ext_resource type="PackedScene" uid="uid://bselm08880mrl" path="res://Basic Guys/base_round_guy.tscn" id="4_t4pba"]
-[ext_resource type="PackedScene" uid="uid://byboa22faixcm" path="res://Unique Guys/leapfrog_guy.tscn" id="6_2gtqe"]
-[ext_resource type="PackedScene" uid="uid://bpvk5cv77groo" path="res://Unique Guys/leftbeard_guy.tscn" id="6_hl2bc"]
+[ext_resource type="PackedScene" uid="uid://byboa22faixcm" path="res://Unique_Guys/leapfrog_guy.tscn" id="6_2gtqe"]
+[ext_resource type="PackedScene" uid="uid://bpvk5cv77groo" path="res://Unique_Guys/leftbeard_guy.tscn" id="6_hl2bc"]
 [ext_resource type="PackedScene" uid="uid://4q2prn7vogpb" path="res://Basic Guys/base_stretch_guy.tscn" id="7_4e0dt"]
 [ext_resource type="PackedScene" uid="uid://bl55icwugytve" path="res://Basic Guys/base_pillar_guy.tscn" id="7_oyv8k"]
 
