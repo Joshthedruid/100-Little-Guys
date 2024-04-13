@@ -41,9 +41,18 @@ func whereToMove():
 	elif(inputB>0):
 		move(Vector2.UP)
 
+var canDrag = false
+
+func _on_area_2d_mouse_entered():
+	canDrag = true
+
+func _on_area_2d_mouse_exited():
+	canDrag = false
+
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(delta):
-	pass
+	if Input.is_action_pressed("click") && canDrag:
+		global_position = get_global_mouse_position()
 
 func _on_ponder_timer_timeout():
 	onGuyPonder()
