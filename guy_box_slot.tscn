@@ -1,0 +1,16 @@
+[gd_scene load_steps=3 format=3 uid="uid://c80pqrrj18n5s"]
+
+[ext_resource type="Texture2D" uid="uid://cxupqeriundnp" path="res://Play Area Sprites/slot2.png" id="1_rtnxh"]
+[ext_resource type="Texture2D" uid="uid://bwi1plk0p3g84" path="res://Play Area Sprites/slot.png" id="2_6tr5v"]
+
+[node name="GuyBoxSlot" type="Node2D"]
+
+[node name="Slot2" type="Sprite2D" parent="."]
+position = Vector2(0, -2.84217e-14)
+scale = Vector2(1.11111, 1.11111)
+texture = ExtResource("1_rtnxh")
+
+[node name="Slot" type="Sprite2D" parent="."]
+position = Vector2(5.96046e-08, 4.47035e-07)
+scale = Vector2(1.11111, 1.11111)
+texture = ExtResource("2_6tr5v")
