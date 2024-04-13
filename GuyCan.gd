@@ -33,6 +33,15 @@ func _ready():
 	addGuy("leftbeard_guy.tscn")
 
 
+var mouseOver = false
+
+func _on_area_2d_mouse_entered():
+	mouseOver = true
+
+func _on_area_2d_mouse_exited():
+	mouseOver = false
+
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(delta):
-	pass
+	if Input.is_action_just_pressed("click") && mouseOver:
+		spawnGuy()

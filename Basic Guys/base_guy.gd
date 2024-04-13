@@ -1,9 +1,11 @@
 extends CharacterBody2D
 class_name BaseGuy
 
-#TODO: allow for click and drag functionality
 #TODO: pause all other guy functions besides being clicked and dragged while it's being clicked and dragged
 #TODO: return to regular movement when dropped
+#TODO: prevent guys from being picked up by being dragged over
+#TODO: handle guys being dropped outside of the play area
+#TODO: (not for base guy but) figure out how to center the play area in fullscreen
 
 #constant which dictates the side of the tiles
 var tile_size = 11
